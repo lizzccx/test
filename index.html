@@ -40,18 +40,18 @@ class LoginViewController: CLBaseViewController, LoginDisplayLogic {
     @IBOutlet weak var bottonConstaraint: NSLayoutConstraint!
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var bottomView: UIView!
-    //
+    
     @IBOutlet weak var phoneTextField: CLFloatLabelTextField!
     @IBOutlet weak var lastNameTextField: CLFloatLabelTextField!
     @IBOutlet weak var firstNameTextField: CLFloatLabelTextField!
     
-    var emailCotstantOffset:CGFloat = 0.0
+    
     @IBOutlet weak var emailBottomConstrain: NSLayoutConstraint!
     @IBOutlet weak var forgotPasswordDescriptionLabel: UILabel!
     @IBOutlet weak var appLogoImageView: UIImageView!
     @IBOutlet weak var textFieldSuperView: UIView!
     
-    
+    // MARK
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         setup()
