@@ -1,0 +1,43 @@
+git status
+On branch main
+nothing to commit, working tree clean
+
+git branch
+  branch1
+* main
+
+git log 
+commit 75cae49c81d8804fa292b1d95a50778f12ecfc71 (HEAD -> main, origin/main)
+Author: Liza <144597642+lizzccx@users.noreply.github.com>
+Date:   Sat Oct 14 14:26:42 2023 +0300
+
+    Create style.css
+
+commit 38fc376285299025da811e926247827b4bf0b85e
+Merge: 1ee233b 430bdce
+Author: Ліза Ільїна <lizailina@Lizas-MacBook-Air.local>
+Date:   Sat Oct 14 14:05:24 2023 +0300
+
+    fix conflict
+
+commit 1ee233b731564993f8a58583f2c41b2dd527b059
+Author: Ліза Ільїна <lizailina@Lizas-MacBook-Air.local>
+Date:   Sat Oct 14 13:52:21 2023 +0300
+
+     change 4 to file on main
+
+commit 430bdceec730259bed606665fad7c0c8165f0d85 (origin/branch1, branch1)
+Author: Ліза Ільїна <lizailina@Lizas-MacBook-Air.local>
+Date:   Sat Oct 14 13:48:25 2023 +0300
+
+    change 3 to fil
+
+commit d021f604ff5b67809d6ee0a23fb3a897e12b0e4b
+
+lizailina@Lizas-MacBook-Air testing % git log --merges
+commit 38fc376285299025da811e926247827b4bf0b85e
+Merge: 1ee233b 430bdce
+Author: Ліза Ільїна <lizailina@Lizas-MacBook-Air.local>
+Date:   Sat Oct 14 14:05:24 2023 +0300
+
+    fix conflict
